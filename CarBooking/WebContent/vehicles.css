@@ -1,0 +1,100 @@
+*{font-family: verdana,sans-serif;}
+
+#div-veicoli {
+    position:absolute;
+    width:1210px;
+    height:768px;
+    left:50%;
+    top:50%;
+    margin-top:-440px;                  /* deve essere metà height del div */  
+    margin-left:-655px;                 /* deve essere metà width del div */
+    padding: 50px;
+    border-radius: 25px;
+    border:1px solid #336699;
+    background-color: #BDD3E9;
+}
+
+h2 {
+   margin-top:-10px; 
+   color: #336699;
+}
+
+#div-back {
+    position:absolute;
+    width:200px;
+    height:45px;
+    margin-top:-50px;
+    margin-left:1000px;
+    cursor: pointer;
+    background-color: #336699;
+    border-radius: 15px;
+    border:1px solid #336699;
+    vertical-align:middle;
+    text-align: center; 
+    color: white;
+}
+
+#div-showvehicles {
+    font-size: 12px;
+    overflow-y: auto;
+    width: 1200px;
+    height: 620px;
+    border:1px solid #336699;
+    background-color: white;
+}
+
+th { 
+    border: 1px solid black; 
+    padding:3px;
+    text-align: center;
+    background-color: #336699;
+    color: white;
+}
+
+#th-id {
+    width: 30px;
+}
+
+#th-azienda {
+    width: 70px;
+}
+
+#th-veicolo {
+    width: 220px;
+}
+
+#th-targa {
+    width: 70px;
+}
+
+#th-sito {
+    width: 300px;
+}
+
+#th-stato {
+    width: 80px;
+}
+
+#th-telepass {
+    width: 100px;
+}
+
+#th-viacard {
+    width: 100px;
+}
+
+#th-cartacarburante {
+    width: 100px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td { 
+    border: 1px solid black; 
+    padding:3px;
+}
+
+
+

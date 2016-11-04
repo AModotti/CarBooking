@@ -1,0 +1,120 @@
+*{font-family: verdana,sans-serif;}
+
+#logo{
+    width:150px; 
+    height: auto;
+    position:absolute;
+    left:50%;
+    top:88%;
+    text-align: center;
+    margin-left:-75px;
+    
+}
+
+#div-principale {
+    position:absolute;
+    width:400px;
+    height:400px;
+    left:50%;
+    top:50%;
+    margin-top:-230px;                  /* deve essere metà height del div */  
+    margin-left:-250px;                 /* deve essere metà width del div */
+    padding: 50px;
+    border-radius: 25px;
+    border:1px solid #336699;
+    background-color: #BDD3E9;
+}
+
+#div-inserimento {
+    width:400px;
+    height:60px;
+    cursor: pointer;
+    background-color: #336699;
+    border-radius: 25px;
+    border:1px solid #336699;
+    vertical-align:middle;
+    text-align: center; 
+    color: white;
+}
+
+#div-cancellazione {
+    width:400px;
+    height:60px;    
+    cursor: pointer;
+    background-color: #336699;
+    border-radius: 25px;
+    border:1px solid #336699;
+    vertical-align:middle;
+    text-align: center;
+    color: white;
+}
+
+#div-modifica {
+    width:400px;
+    height:60px;    
+    cursor: pointer;
+    background-color: #336699;
+    border-radius: 25px;
+    border:1px solid #336699;
+    vertical-align:middle;
+    text-align: center;
+    color: white;
+}
+
+#div-visualizza { 
+    width:400px;
+    height:60px;    
+    cursor: pointer;
+    background-color: #336699;
+    border-radius: 25px;
+    border:1px solid #336699;
+    vertical-align:middle;
+    text-align: center;
+    color: white;
+}
+
+#div-veicoli { 
+    width:400px;
+    height:60px;    
+    cursor: pointer;
+    background-color: #336699;
+    border-radius: 25px;
+    border:1px solid #336699;
+    vertical-align:middle;
+    text-align: center;
+    color: white;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 60px;
+}
+
+#div-Top {
+    position:absolute;
+    width:800px;
+    height:90px;
+    left:50%;
+    top:5%;
+    background-color: #336699;
+    border-radius: 25px;
+    border:1px solid #336699;
+    text-align: center;
+    margin-left:-400px;
+    color:white;
+}
+
+#div-Bottom {
+    position:absolute;
+    left:50%;
+    top:95%;
+    text-align: center;
+    margin-left:-275px;
+    font-size: 12px;
+}
+
+#notainformativa {
+   font-family: Courier New, monospace;  
+   font-size: 12px;   
+}

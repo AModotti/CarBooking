@@ -1,0 +1,210 @@
+*{font-family: verdana,sans-serif;}
+
+#div-printbooking {
+    position:absolute;
+    width:600px;
+    height:500px;
+    left:50px;
+    top:50px;
+    padding: 50px;
+    border-radius: 25px;
+    border:1px solid black;
+}
+
+h2 {
+   margin-top:-10px; 
+   color: black;
+}
+
+#numero{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#cognome{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#nome{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#destinazione{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#motivo{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#giorno{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#daorario{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#aorario{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#veicolo{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#targa{
+    black;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#div-cognome {
+    margin-top:10px; 
+    
+}
+
+#div-nome {
+    margin-top:10px; 
+    
+}
+
+#div-destinazione {
+    margin-top:10px; 
+    
+}
+
+#div-motivo {
+    margin-top:10px;   
+}
+
+#div-periodo {
+    margin-top:10px; 
+}
+
+#div-daorario {
+    margin-top:10px;    
+}
+
+#div-aorario {
+    margin-top:10px; 
+}
+
+#div-veicolo {
+    margin-top:10px;
+}
+
+#div-targa {
+    margin-top:10px;
+}
+
+#numero {
+    width: 80px;
+}
+
+#cognome {
+    width: 200px;
+}
+
+#nome {
+    width: 200px;
+}
+
+#destinazione {
+    width: 250px;
+}
+
+#motivo {
+    width: 350px;
+}
+
+#label-numero {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}
+
+#label-cognome {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}
+
+#label-nome {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}
+
+#label-destinazione {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}
+
+#label-motivo {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}
+
+#label-giorno {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}
+
+#label-daorario {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}
+
+#label-aorario {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}
+
+#label-tuttoilgiorno {
+    color: black;
+}
+
+#label-veicolo {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}
+
+#label-targa {
+    display: inline-block;
+    width: 150px;
+    color: black;
+}

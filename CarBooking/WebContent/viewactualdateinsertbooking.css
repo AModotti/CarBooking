@@ -1,0 +1,74 @@
+*{font-family: verdana,sans-serif;}
+
+.ui-datepicker-calendar td.ui-datepicker-today a { 
+    background: #336699;
+    color: white;
+    font-weight: bold;
+}
+
+#div-showbooking {
+    font-size: 12px;
+    overflow-y: auto;
+    width: 1000px;
+    height: 380px;
+    border:1px solid black;
+}
+
+th { 
+    border: 1px solid black; 
+    padding:3px;
+    text-align: center;
+    background-color: #336699;
+    color: white;
+}
+
+#th-numero {
+    width: 70px;
+}
+
+#th-data {
+    width: 80px;
+}
+
+#th-veicolo {
+    width: 300px;
+}
+
+#th-targa {
+    width: 80px;
+}
+
+#th-nome {
+    width: 200px;
+}
+
+#th-cognome {
+    width: 200px;
+}
+
+#th-destinazione {
+    width: 200px;
+}
+
+#th-dalleore {
+    width: 70px;
+}
+
+#th-alleore {
+    width: 70px;
+}
+
+#th-stato {
+    width: 150px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td { 
+    border: 1px solid black; 
+    padding:3px;
+}
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Gestione Veicolo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- JQUERY CORE LIBRARIES -->
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <!-- JQUERY CSS LIBRARIES -->
+        <link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+        <link href="css/jquery-ui.structure.css" rel="stylesheet" type="text/css">
+        <link href="css/jquery-ui.theme.css" rel="stylesheet" type="text/css">
+        <!-- MY JQUERY -->
+        <script src="managevehicles.js"></script>
+        <link href="managevehicles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <form method="POST" id="managevehiclesform">
+            <div id="div-managevehicles">        
+                <h2>Gestione Veicolo</h2>
+                <div id="div-back">
+                    <span><b>Ritorna al parco veicoli</b></span>
+                </div>
+                <div id="div-id">
+                    <label for="id" id="label-id">Id</label>
+                    <input type="text" id="id" name="id"/>
+                </div>
+                <div id="div-azienda">
+                    <label for="azienda" id="label-azienda">Azienda</label>
+                    <input type="text" id="azienda" name="azienda"/>
+                </div>
+                <div id="div-veicolo">
+                    <label for="veicolo" id="label-veicolo">Veicolo</label>
+                    <input type="text" id="veicolo" name="veicolo"/>
+                </div>
+                <div id="div-targa">
+                    <label for="targa" id="label-targa">Targa</label>
+                    <input type="text" id="targa" name="targa"/>
+                </div>
+                <div id="div-sito">
+                    <label for="sito" id="label-sito">Sito</label>
+                    <input type="text" id="sito" name="sito" />
+                </div>
+                <div id="div-stato">
+                    <label for="stato" id="label-stato">Stato</label>
+                    <input type="text" id="stato" name="stato"/>
+                </div>
+                <div id="div-telepass">
+                    <label for="telepass" id="label-telepass">Telepass</label>
+                    <input type="text" id="telepass" name="telepass"/>
+                </div>
+                <div id="div-viacard">
+                    <label for="viacard" id="label-viacard">Viacard</label>
+                    <input type="text" id="viacard" name="viacard"/>
+                </div>
+                <div id="div-cartacarburante">    
+                    <label for="cartacarburante" id="label-cartacarburante">Carta carburante</label>
+                    <input type="text" id="cartacarburante" name="cartacarburante"/>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div id="div-bottoni">
+                	<label for="password" id="label-password">Password</label>
+                	 <input type="password" id="password" name="password"/>
+                    <input type="button" id="salvamodifiche" value="Salva modifiche"/>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

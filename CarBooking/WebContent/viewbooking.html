@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Visualizza Prenotazioni</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- JQUERY CORE LIBRARIES -->
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <!-- JQUERY CSS LIBRARIES -->
+        <link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+        <link href="css/jquery-ui.structure.css" rel="stylesheet" type="text/css">
+        <link href="css/jquery-ui.theme.css" rel="stylesheet" type="text/css">
+        <!-- MY JQUERY -->
+        <script src="viewbooking.js"></script>
+        <link href="viewbooking.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <form method="POST" id="viewbookingform">
+            <div id="div-viewbooking">        
+                <h2>Visualizza - Stampa Prenotazioni</h2>
+                <div id="div-back">
+                    <span><b>Ritorna al menu principale</b></span>
+                </div>
+                <div id="div-periodo">
+                    <label for="giorno" id="giornolabel">Data prenotazione</label>
+                    <input type="text" id="giorno" name="giorno" readonly="readonly"/>
+                </div>
+                <br>
+                <div id="div-bottoni">
+                    <input type="button" id="visualizzaprenotazionigiorno" value="Visualizza giorno"/>
+                    <input type="button" id="visualizzaprenotazionisettimana" value="Visualizza settimana"/>
+                    <input type="button" id="visualizzaprenotazionimese" value="Visualizza mese"/>
+                </div>
+                <div id="div-excel">
+                    <input type="button" id="esportaexcel" value="Esporta file Excel"/>
+                </div>
+                <br>
+                <div id="div-showbooking">
+                    <table id="table-showbooking">  
+                    </table>
+                </div>  
+            </div>
+        </form>
+    </body>
+</html>

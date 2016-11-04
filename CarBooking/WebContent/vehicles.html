@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Parco Veicoli Aziendali</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- JQUERY CORE LIBRARIES -->
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <!-- JQUERY CSS LIBRARIES -->
+        <link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+        <link href="css/jquery-ui.structure.css" rel="stylesheet" type="text/css">
+        <link href="css/jquery-ui.theme.css" rel="stylesheet" type="text/css">
+        <!-- MY JQUERY -->
+        <script src="vehicles.js"></script>
+        <link href="vehicles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <form method="POST" id="viewvehiclesform">
+            <div id="div-veicoli">        
+                <h2>Parco Veicoli Aziendali</h2>
+                <div id="div-back">
+                    <span><b>Ritorna al menu principale</b></span>
+                </div>
+                <br>
+                <br>
+                <div id="div-showvehicles">
+                    <table id="table-showvehicles">
+                    </table>
+                </div>  
+            </div>
+        </form>
+    </body>
+</html>

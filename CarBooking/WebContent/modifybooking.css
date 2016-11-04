@@ -1,0 +1,122 @@
+*{font-family: verdana,sans-serif;}
+
+.ui-datepicker-calendar td.ui-datepicker-today a { 
+    background: #336699;
+    color: white;
+    font-weight: bold;
+}
+
+#div-modifybooking {
+    position:absolute;
+    width:1210px;
+    height:768px;
+    left:50%;
+    top:50%;
+    margin-top:-440px;                  /* deve essere metà height del div */  
+    margin-left:-655px;                 /* deve essere metà width del div */
+    padding: 50px;
+    border-radius: 25px;
+    border:1px solid #336699;
+    background-color: #BDD3E9;
+}
+
+h2 {
+   margin-top:-10px; 
+   color: #336699;
+}
+
+#div-back {
+    position:absolute;
+    width:200px;
+    height:45px;
+    margin-top:-50px;
+    margin-left:1000px;
+    cursor: pointer;
+    background-color: #336699;
+    border-radius: 15px;
+    border:1px solid #336699;
+    vertical-align:middle;
+    text-align: center; 
+    color: white;
+}
+
+.ui-datepicker {
+    font-size: 12px;
+}
+
+#div-showbooking {
+    font-size: 12px;
+    overflow-y: auto;
+    width: 1200px;
+    height: 620px;
+    border:1px solid black;
+    background-color: white;
+}
+
+#div-periodo {
+    margin-top:10px;
+}
+
+th { 
+    border: 1px solid black; 
+    padding:3px;
+    text-align: center;
+    background-color: #336699;
+    color: white;
+}
+
+#th-numero {
+    width: 70px;
+}
+
+#th-data {
+    width: 80px;
+}
+
+#th-veicolo {
+    width: 300px;
+}
+
+#th-targa {
+    width: 80px;
+}
+
+#th-nome {
+    width: 200px;
+}
+
+#th-cognome {
+    width: 200px;
+}
+
+#th-destinazione {
+    width: 200px;
+}
+
+#th-dalleore {
+    width: 70px;
+}
+
+#th-alleore {
+    width: 70px;
+}
+
+#th-stato {
+    width: 150px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td { 
+    border: 1px solid black; 
+    padding:3px;
+}
+
+#div-periodo label {
+    display: inline-block;
+    width: 160px;
+    color: #336699;
+}
+

@@ -1,0 +1,176 @@
+*{font-family: verdana,sans-serif;}
+
+.ui-datepicker-calendar td.ui-datepicker-today a { 
+    background: #336699;
+    color: white;
+    font-weight: bold;
+}
+
+#div-updatebooking {
+    position:absolute;
+    width:1210px;
+    height:768px;
+    left:50%;
+    top:50%;
+    margin-top:-440px;                  /* deve essere metà height del div */  
+    margin-left:-655px;                 /* deve essere metà width del div */
+    padding: 50px;
+    border-radius: 25px;
+    border:1px solid #336699;
+    background-color: #BDD3E9;
+}
+
+h2 {
+   margin-top:-10px; 
+   color: #336699;
+}
+
+#div-back {
+    position:absolute;
+    width:200px;
+    height:45px;
+    margin-top:-50px;
+    margin-left:1000px;
+    cursor: pointer;
+    background-color: #336699;
+    border-radius: 15px;
+    border:1px solid #336699;
+    vertical-align:middle;
+    text-align: center; 
+    color: white;
+}
+
+#numero{
+    color:white;
+    background-color:#336699;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #336699;
+}
+
+#div-cognome {
+    margin-top:10px; 
+    
+}
+
+#div-nome {
+    margin-top:10px; 
+    
+}
+
+#div-destinazione {
+    margin-top:10px; 
+    
+}
+
+#div-motivo {
+    margin-top:10px;   
+}
+
+#div-periodo {
+    margin-top:10px; 
+}
+
+#div-daorario {
+    margin-top:10px;    
+}
+
+#div-aorario {
+    margin-top:10px; 
+}
+
+#div-veicolo {
+    margin-top:10px;
+}
+
+.ui-datepicker {
+    font-size: 12px;
+}
+
+.ui-autocomplete {
+    font-size: 12px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+#numero {
+    width: 80px;
+}
+
+#cognome {
+    width: 200px;
+}
+
+#nome {
+    width: 200px;
+}
+
+#destinazione {
+    width: 250px;
+}
+
+#motivo {
+    width: 350px;
+}
+
+#label-numero {
+    display: inline-block;
+    width: 150px;
+    color: #336699;
+}
+
+#label-cognome {
+    display: inline-block;
+    width: 150px;
+    color: #336699;
+}
+
+#label-nome {
+    display: inline-block;
+    width: 150px;
+    color: #336699;
+}
+
+#label-destinazione {
+    display: inline-block;
+    width: 150px;
+    color: #336699;
+}
+
+#label-motivo {
+    display: inline-block;
+    width: 150px;
+    color: #336699;
+}
+
+#label-giorno {
+    display: inline-block;
+    width: 150px;
+    color: #336699;
+}
+
+#label-daorario {
+    display: inline-block;
+    width: 150px;
+    color: #336699;
+}
+
+#label-aorario {
+    display: inline-block;
+    width: 150px;
+    color: #336699;
+}
+
+#label-tuttoilgiorno {
+    color: #336699;
+}
+
+#label-veicolo {
+    display: inline-block;
+    width: 150px;
+    color: #336699;
+}
+

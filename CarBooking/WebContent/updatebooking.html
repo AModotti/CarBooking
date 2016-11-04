@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Modifica Prenotazione Veicolo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- JQUERY CORE LIBRARIES -->
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <!-- JQUERY CSS LIBRARIES -->
+        <link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+        <link href="css/jquery-ui.structure.css" rel="stylesheet" type="text/css">
+        <link href="css/jquery-ui.theme.css" rel="stylesheet" type="text/css">
+        <!-- MY JQUERY -->
+        <script src="updatebooking.js"></script>
+        <link href="updatebooking.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <form method="POST" id="updatebookingform">
+            <div id="div-updatebooking">        
+                <h2>Modifica Prenotazione Veicolo</h2>
+                <div id="div-back">
+                    <span><b>Ritorna alla lista prenotazioni</b></span>
+                </div>
+                <div id="div-numero">
+                    <label for="numero" id="label-numero">Numero</label>
+                    <input type="text" id="numero" name="numero"/>
+                </div>
+                <div id="div-cognome">
+                    <label for="cognome" id="label-cognome">Cognome</label>
+                    <input type="text" id="cognome" name="cognome"/>
+                </div>
+                <div id="div-nome">
+                    <label for="nome" id="label-nome">Nome</label>
+                    <input type="text" id="nome" name="nome"/>
+                </div>
+                <div id="div-destinazione">
+                    <label for="destinazione" id="label-destinazione">Destinazione</label>
+                    <input type="text" id="destinazione" name="destinazione"/>
+                </div>
+                <div id="div-motivo">
+                    <label for="motivo" id="label-motivo">Motivo trasferta</label>
+                    <input type="text" id="motivo" name="motivo"/>
+                </div>
+                <div id="div-periodo">
+                    <label for="giorno" id="label-giorno">Data</label>
+                    <input type="text" id="giorno" name="giorno" readonly="readonly"/>
+                </div>
+                <div id="div-daorario">
+                    <label for="daorario" id="label-daorario">Dalle ore</label>
+                    <select name="daorario" id="daorario"></select>
+                    <input type="checkbox" id="tuttoilgiorno" name="tuttoilgiorno" value="ON" />
+                    <label for="tuttoilgiorno" id="label-tuttoilgiorno">Giornata intera</label>
+                </div>
+                <div id="div-aorario">    
+                    <label for="aorario" id="label-aorario">Alle ore</label>
+                    <select name="aorario" id="aorario"></select>
+                </div>
+                <div id="div-veicolo">
+                    <label for="veicolo" id="label-veicolo">Veicolo</label>
+                    <select name="veicolo" id="veicolo"></select>
+                </div>
+                <br>
+                <div id="div-bottoni">
+                    <input type="button" id="visualizzaprenotazioni" value="Visualizza prenotazioni in essere per la data inserita"/>
+                    <input type="button" id="salvaprenotazione" value="Salva"/>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
